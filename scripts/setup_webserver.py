@@ -21,7 +21,7 @@ def instalar_servidor_web():
         print("Distro no soportada. Este script está diseñado para Debian o RedHat/Amazon Linux.")
         exit(1)
 
-def crear_pagina_html(id_servidor="Servidor Web 1"):
+def crear_pagina_html(id_servidor="Servidor Web 3"):
     html = f"""
     <!DOCTYPE html>
     <html lang="es">
@@ -44,5 +44,5 @@ def crear_pagina_html(id_servidor="Servidor Web 1"):
 
 if __name__ == "__main__":
     instalar_servidor_web()
-    crear_pagina_html("Servidor Web 1")
+    crear_pagina_html("Servidor Web 3")
 

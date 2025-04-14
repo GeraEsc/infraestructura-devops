@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Archivos del sistema
+*.log
+.DS_Store
+
+# Archivos grandes o de entorno
+.env
+*.zip
+*.tar.gz
+
